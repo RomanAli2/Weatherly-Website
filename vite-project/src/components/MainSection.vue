@@ -56,7 +56,7 @@
       <p class="mt-2 font-medium">{{ day.date }}</p>
       <p>{{ day.maxtempC }}°C / {{ day.mintempC }}°C</p>
       <p>Avg: {{ day.avgtempC }}°C</p>
- <p>{{ store.weather.current_condition[0].weatherDesc[0].value }}</p>
+
     </div>
 
   </div>
