@@ -66,6 +66,28 @@
   <div v-else>
       <p>Search for a city to see weather</p>
     </div></div>
+      <footer class="mt-auto w-full border-t border-white/20 bg-blue-500 backdrop-blur-md py-8 px-4">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+      
+      <div class="text-center md:text-left">
+        <h2 class="text-2xl font-bold text-white tracking-wide">Weatherly</h2>
+        <p class="text-white/70 text-sm mt-1">Aapka daily weather partner.</p>
+      </div>
+      <div class="mt-8 pt-4 border-t   border-white/10 text-center">
+      <p class="text-white/50 text-xs">
+        &copy; 2026 Weatherly. Built with Vue & Tailwind.
+      </p>
+    </div>
+      <div class="flex items-center space-x-4">
+        <div class="h-8 w-8 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-all cursor-pointer">
+           <span class="text-xs text-white">GH</span>
+        </div>
+        <div class="h-8 w-8 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-all cursor-pointer">
+           <span class="text-xs text-white">LI</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 <script setup>
 import { useWeatherStore } from '../store/index'

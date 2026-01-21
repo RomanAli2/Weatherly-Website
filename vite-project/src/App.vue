@@ -1,7 +1,7 @@
 <template>
 <HeaderSection/>
 <MainSection/>
-<FooterSection/>
+
 </template>
 <script setup>
 import FooterSection from './components/FooterSection.vue';
